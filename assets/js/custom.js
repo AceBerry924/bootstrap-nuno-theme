@@ -35,3 +35,11 @@ $(document).ready(function () {
     } // End if
   });
 });
+
+/* Bouncing Down Arrow */
+
+$(document).ready(function () {
+  $(window).scroll(function () {
+    $('.arrow').css('opacity', 1 - $(window).scrollTop / 250);
+  });
+});
