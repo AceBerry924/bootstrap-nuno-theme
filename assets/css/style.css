@@ -135,10 +135,40 @@ h3.heading {
   background-color: #1ebba3;
   margin: 0 auto;
 }
+.feature {
+  text-align: center;
+}
+.feature .fa-layers {
+  color: #1ebba3;
+  height: 6rem;
+  margin: 0 auto;
+  width: 3.9rem;
+}
+.feature h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-bottom: .4rem;
+}
+.feature p {
+  font-size: 1.1rem;
 
+}
 
+/* Fixed Background IMG Dark */
 
-
+#fixed {
+  background-image: url('../img/fixed/apple.png');
+  z-index: 1;
+}
+.dark {
+  background-color: rgba(0, 0, 0, .7);
+  padding: 7rem 2rem;
+  text-align: center;
+  z-index: 1000!important;
+}
+.dark h3, .dark p {
+  color: #e9ecef;
+}
 
 
 /*============ BOOTSTRAP BREAK POINTS:
