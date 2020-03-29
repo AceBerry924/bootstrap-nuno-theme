@@ -12,9 +12,9 @@ $(document).ready(function () {
 /* Close Mobile Nav on Click */
 $(document).ready(function () {
   $(window).click(function (event) {
-    var clickover = $(event.target);
+    var clickOver = $(event.target);
     var _opened = $('.navbar-collapse').hasClass('show');
-    if (_opened === true && !clickover.hasClass('navbar-toggler')) {
+    if (_opened === true && !clickOver.hasClass('navbar-toggler')) {
       $('.navbar-toggler').click();
     }
   });
@@ -36,7 +36,6 @@ $(document).ready(function () {
 });
 
 /* Bouncing Down Arrow */
-
 $(document).ready(function () {
   $(window).scroll(function () {
     $('.arrow').css('opacity', 1 - $(window).scrollTop / 250);
