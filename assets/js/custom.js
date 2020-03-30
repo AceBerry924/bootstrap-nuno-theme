@@ -64,3 +64,13 @@ $(document).ready(function () {
     }
   });
 });
+
+
+/* Sills Counter */
+
+$(document).ready(function () {
+  $('.counter').counterUp({
+    delay: 10,
+    time: 1800
+  });
+});
