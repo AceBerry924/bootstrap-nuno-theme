@@ -319,8 +319,31 @@ blockquote .svg-inline--fa {
   border-top: .05rem solid #1ebba3;
 }
 
+/* Contact Section */
 
-
+footer {
+  background: url('../img/footer/footer.png') no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+footer .row {
+  background-color: rgba(57, 63, 70, 0.85);
+  padding: 1rem 2rem 3rem;
+}
+footer img {
+  height: 2rem;
+  margin: 1.5rem 0;
+}
+footer a {
+  color: #fff;
+}
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+}
+footer svg.svg-inline--fa:hover {
+  color: #1ebba3!important;
+}
 
 
 
