@@ -364,6 +364,7 @@ footer h3 {
 .form-control:focus {
   background: #53595f;
   box-shadow: none!important;
+  color: #fff;
 }
 .form-group input::placeholder,
 .form-group textarea::placeholder {
