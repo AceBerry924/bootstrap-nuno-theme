@@ -344,8 +344,37 @@ footer svg.svg-inline--fa {
 footer svg.svg-inline--fa:hover {
   color: #1ebba3!important;
 }
+footer h3 {
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+}
 
+/* Contact Form */
 
+.form-group {
+  margin-bottom: 1.3rem;
+}
+.form-control {
+  background-color: #53595f;
+  border-radius: 0;
+  border: .15rem solid #666b71;
+  color: #fff;
+  font-size: 1.1rem;
+}
+.form-control:focus {
+  background: #53595f;
+}
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #b2b5b8!important;
+}
+input.btn {
+  cursor: pointer;
+}
+hr.socket {
+  border-top: .2rem solid #666b71;
+  width: 100%;
+}
 
 
 /*============ BOOTSTRAP BREAK POINTS:
