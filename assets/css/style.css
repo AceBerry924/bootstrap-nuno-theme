@@ -396,12 +396,83 @@ a.top-scroll:hover {
   opacity: .5;
 }
 
+/* Media Queries */
 
+/* Devices Under 992px (lg) */
+@media (max-width: 991px) {
+  .caption h1 {
+    font-size: 3.5rem;
+    letter-spacing: .2rem;
+    padding-bottom: .8rem;
+  }
+  .caption h3 {
+    font-size: 2.2rem;
+    padding-bottom: 1.7rem;
+  }
+  .btn-lg {
+    font-size: 1rem;
+    padding: .8rem 1.5rem;
+  }
+  .narrow h1 {
+    font-size: 2.1rem;
+  }
+}
 
+/* Devices Under 768px (lg) */
+@media (max-width: 767px) {
+  .caption h1 {
+    font-size: 2.7rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+  .caption h3 {
+    font-size: 1.7rem;
+    padding-bottom: 1.2rem;
+  }
+  .btn-lg {
+    font-size: 1rem;
+    padding: .6rem 1.1rem;
+  }
+  .narrow h1 {
+    font-size: 1.8rem;
+  }
+  #fixed {
+    background-image: url('../img/fixed/apple-mobile.png');
+  }
+  #fixed-2 {
+    background-image: url('../img/fixed/office-mobile.png');
+  }
+  footer {
+    background: url('../img/footer/footer-mobile.png') no-repeat;
+  }
+  .clients img {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  .top-scroll {
+    display: none!important;
+  }
+}
 
-
-
-
+/* Devices Under 576px (lg) */
+@media (max-width: 575) {
+  .caption h1 {
+    font-size: 1.9rem;
+    letter-spacing: .1rem;
+    padding-bottom: .4rem;
+  }
+  .caption h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+  }
+  .btn-lg {
+    font-size: .9rem;
+    padding: .4rem .9rem;
+  }
+  .narrow {
+    width: 85%;
+  }
+}
 
 
 /*============ BOOTSTRAP BREAK POINTS:
