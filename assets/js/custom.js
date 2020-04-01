@@ -91,3 +91,14 @@ $(document).ready(function () {
     }
   });
 });
+
+/* Top Scroll */
+$(document).ready(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 500) {
+      $('.top-scroll').fadeIn();
+    } else {
+      $('.top-scroll').fadeOut();
+    }
+  });
+});
