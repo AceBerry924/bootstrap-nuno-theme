@@ -43,7 +43,6 @@ $(document).ready(function () {
 });
 
 /* Meet the Team */
-
 $(document).ready(function () {
   $('#team-slider').owlCarousel({
     item: 3,
@@ -67,10 +66,28 @@ $(document).ready(function () {
 
 
 /* Sills Counter */
-
 $(document).ready(function () {
   $('.counter').counterUp({
     delay: 10,
     time: 1800
+  });
+});
+
+/* Clients Carousel */
+$(document).ready(function () {
+  $('#clients-slider').owlCarousel({
+    item: 3,
+    autoplay: true,
+    smartSpeed: 1700,
+    loop: true,
+    autoplayHoverPause: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 2
+      },
+    }
   });
 });
