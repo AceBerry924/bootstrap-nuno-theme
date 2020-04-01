@@ -102,3 +102,15 @@ $(document).ready(function () {
     }
   });
 });
+
+//Optional Refresh Page at top of document on load instead of at # hash
+/*
+$(document).ready(function() {
+  $('html, body').scrollTop(0);
+  $(window).on('load', function() {
+    setTimeout(function(){
+      $('html, body').scrollTop(0);
+    }, 0);
+  });
+});
+*/
